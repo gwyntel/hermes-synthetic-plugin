@@ -1,0 +1,12 @@
+name: synthetic
+version: "1.0.0"
+description: "Synthetic.new ZDR web search + quota checking"
+author: "Synthetic"
+requires_env:
+  - name: SYNTHETIC_API_KEY
+    description: "Synthetic.new API key"
+    url: "https://synthetic.new"
+    secret: true
+provides_tools:
+  - synthetic_zdr_search
+  - synthetic_quota_check
